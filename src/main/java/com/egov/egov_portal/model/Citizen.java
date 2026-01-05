@@ -12,4 +12,8 @@ public class Citizen extends User{
     private int age;
     private String nationality;
 
+    public Citizen(String nationality, int age) {
+        this.nationality = nationality;
+        this.age = age;
+    }
 }

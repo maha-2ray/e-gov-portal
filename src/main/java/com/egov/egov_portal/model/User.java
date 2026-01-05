@@ -15,4 +15,12 @@ public class User {
     private String fullName;
     private String email;
 
+    public User(Long id, String fullName, String email) {
+        this.id = id;
+        this.fullName = fullName;
+        this.email = email;
+    }
+
+    public User() {
+    }
 }
